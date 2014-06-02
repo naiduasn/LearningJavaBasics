@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="123" started-at="2014-06-02T17:26:06Z" finished-at="2014-06-02T17:26:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="123" started-at="2014-06-02T17:26:06Z" finished-at="2014-06-02T17:26:06Z">
+      <class name="Temp.JSONHandling">
+        <test-method status="PASS" signature="readJsonTest()[pri:0, instance:Temp.JSONHandling@27242aae]" name="readJsonTest" duration-ms="108" started-at="2014-06-02T22:56:06Z" finished-at="2014-06-02T22:56:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readJsonTest -->
+      </class> <!-- Temp.JSONHandling -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
