@@ -47,9 +47,9 @@ public class SSHManager
             logError(jschX.getMessage());
         }
 
-        strUserName = "graval";
-        strPassword = "inmobi@123";
-        strConnectionIP = "sdt1.corp.inmobi.com";
+        strUserName = "USER";
+        strPassword = "PASS";
+        strConnectionIP = "HOST";
     }
 
     public SSHManager(final String userName, final String password, final String connectionIP,
@@ -181,10 +181,10 @@ public class SSHManager
          * YOU MUST CHANGE THE FOLLOWING FILE_NAME: A FILE IN THE DIRECTORY USER: LOGIN USER NAME PASSWORD: PASSWORD FOR
          * THAT USER HOST: IP ADDRESS OF THE SSH SERVER
          **/
-        String command = "tail -0f /opt/mkhoj/logs/click/phoenix/phoenix.log";
-        String userName = "graval";
-        String password = "inmobi@123";
-        String connectionIP = "sdt1.corp.inmboi.com";
+        String command = "tail -0f /var/log/*.log";
+        String userName = "USER";
+        String password = "PASS";
+        String connectionIP = "HOST";
         SSHManager instance = new SSHManager(userName, password, connectionIP, "");
         String errorMessage = instance.connect();
 
@@ -202,7 +202,7 @@ public class SSHManager
         System.out.println("command send :: Waiting...");
         // close only after all commands are sent
         // URL yahoo = new URL(
-        // "http://csdt.appsdt.com/click/phoenix/98b2b2a2f5e8a6b51884f551685a6c4845532396?clickId=test62");
+        // "http://YAHOO.COM);
         // URLConnection connection = yahoo.openConnection();
         // Scanner scanner = new Scanner(connection.getInputStream());
         // scanner.useDelimiter("\\Z");
