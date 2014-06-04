@@ -1,0 +1,10 @@
+<suite name="IATUI2.0Automation" parallel="methods" 
+	thread-count="1" verbose="1">
+	<test name="regression" preserve-order="true">
+		<package>
+			<class name="com.inmobi.iat.test" />
+		</package>
+	</test>
+</suite>
+
+		
