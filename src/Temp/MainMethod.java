@@ -11,6 +11,7 @@ public class MainMethod
 
     /**
      * @param args
+     * Read input arguments and print
      */
     public static void main(final String[] args)
     {
